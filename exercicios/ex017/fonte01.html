@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes e CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+           font-family: 'Work Sans', Arial, Helvetica, sans-serif; /* sempre terminar com uma família genérica*/
+           /*  
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt (ponto, é o tamanho que usamos no wolrd), pc (paica).
+
+           Medidas Relativas
+           em (M maiúsculo de uma letra), ex (altura x de uma fonte), rem(parecido com "em" so que relativo a fonte que está configurada no body ), vw( view width, porcentagem da largua do view porte), vh, %.
+           (16px geralmente x 1em)
+           */
+           font-size: 16px ; /*Recomendado px e em); não pode ter espaço entre a medida e o número*/
+           font-weight: normal ;/*negrito*/
+           font-style: normal;/*se quiser italico*/
+           /* 
+           weigth(PESO): ligther normal bold bolder;
+           width(LARGURA)
+           height(ALTURA)
+           */
+           text-decoration: underline;/*sublinhado*/
+        }
+
+        h1{
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font
+            -font-style -> font-weght -> font-size -> font-family */
+            font: italic bolder 3em 'wok sans', sans-serif;
+        }
+      
+        h2{
+            font: bold 2em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body >
+
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore laboriosam incidunt, eaque cupiditate iusto in voluptates sit eum magni exercitationem atque fugiat totam laborum mollitia labore asperiores quo enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque est quo, quia eos nihil, laborum, repellat libero officiis ratione aut possimus esse expedita id praesentium odio suscipit fugit. Veritatis, officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quia laborum consequuntur quidem eveniet corporis error, tenetur modi soluta neque ut voluptatibus rerum, ducimus nihil illo provident assumenda nemo doloribus.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, sed. Perspiciatis, quasi nam libero dolor repellat eum quas adipisci neque ratione possimus voluptas. Veritatis saepe modi laudantium dicta? Quidem, architecto?</p>
+    </main>
+</body>
+</html>

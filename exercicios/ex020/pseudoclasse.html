@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div { /*ocupa a linha inteira*/
+            display: inline-block; /*na mesma linha*/
+            background-color: lightgray;
+            border: 1px solid black; /*largura tipo cor*/
+            text-align: center; /*esolher centralizar o texto*/
+            height: 200px; /*altura*/
+            width: 200px;/*largura*/
+        }
+
+        div:hover {/* passando o mouse por cima */
+            background-color: yellow;
+        }
+      /*
+        ":" significa uma pseudo-classe.
+        elas tem que está relacionadas a um estado de um elemento.
+      */
+
+    </style>
+</head>
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+</body>
+</html>

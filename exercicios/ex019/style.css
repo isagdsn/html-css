@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*
+não esquecer de sempre finalizar com ";" 
+em HTML é "id" = CSS "#" (só pode 1 elemento)
+em html é "class" = css é "." ( pode vários elementos)
+*/
+/*
+a regra é usar somente 1 id 
+*/
+
+*{
+    height:auto;
+}
+
+body{
+    background-color: #eb729294;
+
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.74);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #00000077 ;
+    width: 600px;
+    padding: 10px;;
+    margin: auto;
+
+}
+
+h1{
+    color:#8a3e52;
+}
+
+h1#principal{ 
+    text-align: center;
+    background-color: #612D3B;
+    color:#e96588;
+}
+
+h2{
+    color:#b63255 ;
+}
+
+.basico { 
+    color: blue;
+}
+
+.intermediario {
+    color: rgb(255, 166, 0);
+}
+
+.avancado {
+    color: green;
+}
+
+.destaque{
+    background-color: aliceblue;
+}
