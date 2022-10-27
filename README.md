@@ -8,7 +8,7 @@ Estou aprendendo a programar e irei gerenciar meus repositórios!
 
 <a href="https://isagdsn.github.io/html-css/exercicios/ex002/index.html" target="_blank">Executar o exercicio 002 </a>
 
-<a href="https://isagdsn.github.io/html-css/exercicios/ex003/index.html" target="_blank>Executar o exercicio 003 </a>
+<a href="https://isagdsn.github.io/html-css/exercicios/ex003/index.html" target="_blank">Executar o exercicio 003 </a>
 
 <a href="https://isagdsn.github.io/html-css/exercicios/ex004/index.html" target="_blank">Executar o exercicio 004 </a>
 
