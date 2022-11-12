@@ -1,0 +1,11 @@
+Estudar mais sobre:
+
+*Espressões regulares ou RegEx.
+___________________________________________________________
+<form>
+   <fieldset>(Para criar um quadro em volta)
+       <legend>Dados Pessoais</legend>( adiciona legenda)
+____________________________________________________________
+
+input:email (e-mail)
+input:tel (telefone)
