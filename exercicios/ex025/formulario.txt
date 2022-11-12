@@ -9,3 +9,71 @@ ____________________________________________________________
 
 input:email (e-mail)
 input:tel (telefone)
+input:color (cor)
+input:range (nível de satisfação)
+input:file(foto)(method=post)
+__________________________________________________________
+<input type="checkbox" name="esfut" id="iesfut"> Futebol
+input:checkbox (criar opções)
+_____________________________________________________________
+ <input type="radio" name="sexo" id="isxmas" value="M"><label for="isxmas">Masculino</label><br>
+
+<input type="radio" name="sexo" id="isxfem" checked value="F"><label for="isxfem">Feminino</label>
+
+input:radio (tem que colocar o mesmo "name" para poder identificar que fazem parte do mesmo "radio")("id" fica de acordo com seu respectivo label).
+Não esquecer de colocar "value" em cada um!
+____________________________________________________________
+cheked (dentro do input)(se quiser que ja apareça marcado).
+____________________________________________________________
+<label for="iest">Estado:</label>
+    <select name="est" id="iest">
+
+        <option value="" selected>---escolha---</option>
+
+             <optgroup label="Região Sudeste">
+             <option value="MG">Minas Gerai</option>
+             <option value="RJ">Rio de Janeiro</option>
+             <option value="SP">São Paulo</option>
+             </optgroup>
+
+              <optgroup label="Região Nordeste">
+              <option value="MA">Maranhão</option>
+              <option value="PE">Pernambuco</option>
+              <option value="RN">Rio Grande do Norte</option>
+        
+         </optgroup>
+      </select>
+
+input:select(seleção)
+selected(fica selecionada)(dentro de input)
+label(dentro de input)(LEGENDA)	
+opt(option)(opção)
+optgroup(seleção de um grupo de opt)
+OBS:Não consegue digitar, somente escolher.
+______________________________________________________________
+<input type="text" name="prof" id="iprof" list="lstprof">
+     <datalist id="lstprof">
+          <option value="ADM">Administrador</option>
+          <option value="CONT">Contabilista</option>
+          <option value="DEV">Desenvolvedor</option>
+          <option value="PROF">Professor</option>
+     </datalist>
+
+list(dentro de "input" com seu "id")
+   datalist("id" que sera colocado no "list")
+        opt
+        opt
+        opt 
+OBS: Consegue escolher ou digitar outra opção.
+___________________________________________________________
+textarea(area para mensagem)(method=POST)
+   <label for="imsg">Mensagem:</label><br>
+       <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe sua Mensagem!"></textarea>
+
+
+
+
+
+
+
+
