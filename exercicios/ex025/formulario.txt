@@ -69,6 +69,49 @@ ___________________________________________________________
 textarea(area para mensagem)(method=POST)
    <label for="imsg">Mensagem:</label><br>
        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Deixe sua Mensagem!"></textarea>
+____________________________________________________________
+
+ <p>
+   <label for="in1">Número 1: </label>
+       <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+ </p>
+ <p>
+    <label for="isoma">Soma: </label>
+    <output name="soma" id="isoma">0</output>
+ </p>
+
+input:number(números)
+output(saida)(serve somente para visualização e não computação de dados)
+_________________________________________________________________
+oninput="isoma.innerHTML = Number(id.value) + Number(id.value)"
+(exemplo).
+__________________________________________________________________
+OBS:O resultado não é enviado, ele serve apenas para amostra!
+________________________________________________________________
+<p>
+   <label for="iano">Em que ano vc nasceu? </label>
+   <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="calcIdade()" >
+</p>
+<p>
+   <label for="iidade">Sua idade é:</label>
+   <output id="iidade">0</output>
+</p>
+
+ <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+ </p>
+
+        <script>
+            function calcIdade() {
+                let atual = new Date().getFullYear()
+                iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
+
+
+
+
 
 
 
