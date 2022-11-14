@@ -102,12 +102,12 @@ ________________________________________________________________
     <input type="reset" value="Limpar">
  </p>
 
-        <script>
-            function calcIdade() {
-                let atual = new Date().getFullYear()
-                iidade.innerHTML = Number(atual) - Number(iano.value)
-            }
-        </script>
+<script>
+    function calcIdade() {
+    let atual = new Date().getFullYear()
+    iidade.innerHTML = Number(atual) - Number(iano.value)
+    }
+</script>
 
 
 
