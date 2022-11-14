@@ -1,0 +1,1 @@
+Media Queries: Permite que uma pág. da web possa ter diferentes formatos para se adaptar em diferentes tipos de telas.
